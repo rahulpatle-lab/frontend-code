@@ -1,0 +1,29 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+license-management-frontend/node_modules
+license-management-frontend/.pnp
+license-management-frontend/.pnp.js
+
+# testing
+license-management-frontend/coverage
+
+# production
+license-management-frontend/build
+
+# misc
+.DS_Store
+.env
+license-management-frontend/.env
+license-management-frontend/.env.local
+license-management-frontend/.env.development.local
+license-management-frontend/.env.test.local
+license-management-frontend/.env.production.local
+
+# IDE
+.idea/
+license-management-frontend/.idea/
+
+license-management-frontend/npm-debug.log*
+license-management-frontend/yarn-debug.log*
+license-management-frontend/yarn-error.log*
